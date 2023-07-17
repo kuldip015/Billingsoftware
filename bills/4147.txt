@@ -1,0 +1,15 @@
+		 Welcome Mini Mall
+ Bill Number:4147 
+ Customer Name:yash 
+ Phone Number:9635214750 
+ Customer Email:yash123@gmail.com 
+=================================================
+	Products			QTY		Price
+=================================================
+ Himalay				2		180
+
+=================================================
+ Sub Amount:			Rs.180.00
+ Tax Amount:			Rs.16.20
+ Total Amount:			Rs.196.20
+=================================================

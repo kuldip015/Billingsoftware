@@ -1,0 +1,15 @@
+		 Welcome Mini Mall
+ Bill Number:9153 
+ Customer Name:sahil  
+ Phone Number:7283960425 
+ Customer Email:boradsahil343@gmail.com 
+=================================================
+Products			QTY		Price
+================================================= Himalay			1		90
+ Calvin Klein			1		4000
+
+=================================================
+ Sub Amount:			Rs.8090.00
+ Tax Amount:			Rs.40.90
+ Total Amount:			Rs.8130.90
+=================================================

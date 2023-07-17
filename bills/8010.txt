@@ -1,0 +1,17 @@
+		 Welcome Mini Mall
+ Bill Number:8010 
+ Customer Name:karan
+ Phone Number:72839602445 
+ Customer Email:karan80@gmail.com
+=================================================
+	Products			QTY		Price
+=================================================
+ 				0		0 
+ Calvin Klein				2		8000 
+ Mama's earth				2		8000
+
+=================================================
+ Sub Amount:			Rs.16000.00
+ Tax Amount:			Rs.2160.00
+ Total Amount:			Rs.18160.00
+=================================================

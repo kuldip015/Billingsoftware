@@ -1,0 +1,18 @@
+		 Welcome Mini Mall
+ Bill Number:9343 
+ Customer Name: 
+ Phone Number: 
+ Customer Email: 
+=================================================
+Products			QTY		Price
+=================================================
+ Pantjali			1		40 
+ Bajaj			  1		    40 
+ Parachute			1		40 
+ Smasung M12			1		12000
+
+=================================================
+ Sub Amount:			Rs.12120.00
+ Tax Amount:			Rs.1.20
+ Total Amount:			Rs.12121.20
+=================================================

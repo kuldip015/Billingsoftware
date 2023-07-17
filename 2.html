@@ -1,0 +1,849 @@
+
+<!-- meta tags and other links -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devengineering - Package Section</title>
+    <!-- site favicon -->
+    <link rel="shortcut icon" type="image/png" href="http://devengineeringconsultancy.com/assets/images/logoIcon/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+    <!-- bootstrap 4  -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/core.bootstrap.min.css">
+    <!-- bootstrap toggle css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/bootstrap-toggle.min.css">
+    <!-- fontawesome 5  -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/global/css/all.min.css">
+    <!-- line-awesome webfont -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/global/css/line-awesome.min.css">
+
+    
+    <!-- custom select box css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/nice-select.css">
+    <!-- code preview css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/prism.css">
+    <!-- select 2 css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/select2.min.css">
+    <!-- jvectormap css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/jquery-jvectormap-2.0.5.css">
+    <!-- datepicker css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/datepicker.min.css">
+    <!-- timepicky for time picker css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/jquery-timepicky.css">
+    <!-- bootstrap-clockpicker css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/bootstrap-clockpicker.min.css">
+    <!-- bootstrap-pincode css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/vendor/bootstrap-pincode-input.css">
+    <!-- dashdoard main css -->
+    <link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/admin/css/app.css">
+
+
+    </head>
+<body>
+    <!-- page-wrapper start -->
+    <div class="page-wrapper default-version">
+        <div class="sidebar capsule--rounded bg_img overlay--indigo overlay--opacity-8"
+     data-background="http://devengineeringconsultancy.com/assets/admin/images/sidebar/2.jpg">
+    <button class="res-sidebar-close-btn"><i class="las la-times"></i></button>
+    <div class="sidebar__inner">
+        <div class="sidebar__logo">
+            <a href="http://devengineeringconsultancy.com/admin/dashboard" class="sidebar__main-logo"><img
+                    src="http://devengineeringconsultancy.com/assets/images/logoIcon/logo.png" alt="image"></a>
+            <a href="http://devengineeringconsultancy.com/admin/dashboard" class="sidebar__logo-shape"><img
+                    src="http://devengineeringconsultancy.com/assets/images/logoIcon/favicon.png" alt="image"></a>
+            <button type="button" class="navbar__expand"></button>
+        </div>
+
+        <div class="sidebar__menu-wrapper" id="sidebar__menuWrapper">
+            <ul class="sidebar__menu">
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/dashboard" class="nav-link ">
+                        <i class="menu-icon las la-home"></i>
+                        <span class="menu-title">Dashboard</span>
+                    </a>
+                </li>
+
+             
+               
+                    <div class="sidebar-submenu  ">
+                        <ul>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/users" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">All Users</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/users/active" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Active Users</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/users/banned" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Banned Users</span>
+                                                                    </a>
+                            </li>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/users/email-unverified" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Email Unverified</span>
+
+                                                                    </a>
+                            </li>
+
+                            <li class="sidebar-menu-item ">
+                                <a href="http://devengineeringconsultancy.com/admin/users/sms-unverified" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">SMS Unverified</span>
+                                                                    </a>
+                            </li>
+
+                            <li class="sidebar-menu-item ">
+                                <a href="http://devengineeringconsultancy.com/admin/users/with-balance" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">With Balance</span>
+                                </a>
+                            </li>
+
+
+                            <li class="sidebar-menu-item ">
+                                <a href="http://devengineeringconsultancy.com/admin/users/send-email" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Email to All</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="sidebar-menu-item sidebar-dropdown">
+                    <a href="javascript:void(0)" class="">
+                        <i class="menu-icon las la-credit-card"></i>
+                        <span class="menu-title">Payment Gateways</span>
+
+                    </a>
+                    <div class="sidebar-submenu  ">
+                        <ul>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/gateway/automatic" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Automatic Gateways</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/gateway/manual" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Manual Gateways</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="sidebar-menu-item sidebar-dropdown">
+                    <a href="javascript:void(0)" class="">
+                        <i class="menu-icon las la-credit-card"></i>
+                        <span class="menu-title">Deposits</span>
+                                            </a>
+                    <div class="sidebar-submenu  ">
+                        <ul>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/deposit/pending" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Pending Deposits</span>
+                                                                    </a>
+                            </li>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/deposit/approved" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Approved Deposits</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/deposit/successful" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Successful Deposits</span>
+                                </a>
+                            </li>
+
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/deposit/rejected" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Rejected Deposits</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/deposit" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">All Deposits</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="sidebar-menu-item sidebar-dropdown">
+                    <a href="javascript:void(0)" class="">
+                        <i class="menu-icon la la-ticket"></i>
+                        <span class="menu-title">Support Ticket </span>
+                                                    <span class="menu-badge pill bg--primary ml-auto">
+                                <i class="fa fa-exclamation"></i>
+                            </span>
+                                            </a>
+                    <div class="sidebar-submenu  ">
+                        <ul>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/tickets" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">All Ticket</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/tickets/pending" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Pending Ticket</span>
+                                                                            <span
+                                            class="menu-badge pill bg--primary ml-auto">4</span>
+                                                                    </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/tickets/closed" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Closed Ticket</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/tickets/answered" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Answered Ticket</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+
+                <li class="sidebar-menu-item sidebar-dropdown">
+                    <a href="javascript:void(0)" class="">
+                        <i class="menu-icon la la-list"></i>
+                        <span class="menu-title">Report </span>
+                    </a>
+                    <div class="sidebar-submenu  ">
+                        <ul>
+                            <li class="sidebar-menu-item ">
+                                <a href="http://devengineeringconsultancy.com/admin/report/signal/history" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Signal Log</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item ">
+                                <a href="http://devengineeringconsultancy.com/admin/report/transaction" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Transaction Log</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-menu-item ">
+                                <a href="http://devengineeringconsultancy.com/admin/report/login/history" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Login History</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-menu-item ">
+                                <a href="http://devengineeringconsultancy.com/admin/report/email/history" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Email History</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </li>
+
+
+                <li class="sidebar-menu-item  ">
+                    <a href="http://devengineeringconsultancy.com/admin/subscriber" class="nav-link"
+                       data-default-url="http://devengineeringconsultancy.com/admin/subscriber">
+                        <i class="menu-icon las la-thumbs-up"></i>
+                        <span class="menu-title">Subscribers </span>
+                    </a>
+                </li>
+
+
+                <li class="sidebar__menu-header">Settings</li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/general-setting" class="nav-link">
+                        <i class="menu-icon las la-life-ring"></i>
+                        <span class="menu-title">General Setting</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/setting/logo-icon" class="nav-link">
+                        <i class="menu-icon las la-images"></i>
+                        <span class="menu-title">Logo & Favicon</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/extensions" class="nav-link">
+                        <i class="menu-icon las la-cogs"></i>
+                        <span class="menu-title">Extensions</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item  ">
+                    <a href="http://devengineeringconsultancy.com/admin/language" class="nav-link"
+                       data-default-url="http://devengineeringconsultancy.com/admin/language">
+                        <i class="menu-icon las la-language"></i>
+                        <span class="menu-title">Language </span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/seo" class="nav-link">
+                        <i class="menu-icon las la-globe"></i>
+                        <span class="menu-title">SEO Manager</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item sidebar-dropdown">
+                    <a href="javascript:void(0)" class="">
+                        <i class="menu-icon la la-envelope-o"></i>
+                        <span class="menu-title">Email Manager</span>
+                    </a>
+                    <div class="sidebar-submenu  ">
+                        <ul>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/email-template/global" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Global Template</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/email-template/index" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Email Templates</span>
+                                </a>
+                            </li>
+
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/email-template/setting" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Email Configure</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="sidebar-menu-item sidebar-dropdown">
+                    <a href="javascript:void(0)" class="">
+                        <i class="menu-icon la la-mobile"></i>
+                        <span class="menu-title">SMS Manager</span>
+                    </a>
+                    <div class="sidebar-submenu  ">
+                        <ul>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/sms-template/global" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">Global Setting</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/sms-template/setting" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">SMS Gateways</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-menu-item  ">
+                                <a href="http://devengineeringconsultancy.com/admin/sms-template/index" class="nav-link">
+                                    <i class="menu-icon las la-dot-circle"></i>
+                                    <span class="menu-title">SMS Templates</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="sidebar__menu-header">Frontend Manager</li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/frontend/templates" class="nav-link ">
+                        <i class="menu-icon la la-html5"></i>
+                        <span class="menu-title">Manage Templates</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/frontend/manage-pages" class="nav-link ">
+                        <i class="menu-icon la la-list"></i>
+                        <span class="menu-title">Manage Pages</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item sidebar-dropdown">
+                    <a href="javascript:void(0)" class="side-menu--open">
+                        <i class="menu-icon la la-html5"></i>
+                        <span class="menu-title">Manage Section</span>
+                    </a>
+                    <div class="sidebar-submenu sidebar-submenu__open ">
+                        <ul>
+                                                                                                                            <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/about" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">About Us</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/auth_image" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Authentication Page</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/banner" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Banner Section</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/blog" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Blog Section</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/breadCrumb" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">BreadCrumb Image</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/contact_us" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Contact Us</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/cta" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Call To Action</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/faq" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">FAQ Section</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/how_it_work" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">How It Work</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/overview" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Overview Section</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   active  ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/package" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Package Section</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/policy_pages" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Policy Pages</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/social_icon" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Social Icons</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/subscribe" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Subscribe Section</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/testimonial" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Testimonial Section</span>
+                                        </a>
+                                    </li>
+                                                                                                                                <li class="sidebar-menu-item   ">
+                                        <a href="http://devengineeringconsultancy.com/admin/frontend/frontend-sections/why_choose_us" class="nav-link">
+                                            <i class="menu-icon las la-dot-circle"></i>
+                                            <span class="menu-title">Why Choose Us</span>
+                                        </a>
+                                    </li>
+                                                            
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="sidebar__menu-header">Extra</li>
+
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/cookie" class="nav-link">
+                        <i class="menu-icon las la-cookie-bite"></i>
+                        <span class="menu-title">GDPR Cookie</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item  ">
+                    <a href="http://devengineeringconsultancy.com/admin/system-info" class="nav-link"
+                       data-default-url="http://devengineeringconsultancy.com/admin/system-info">
+                        <i class="menu-icon las la-server"></i>
+                        <span class="menu-title">System Information </span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/custom-css" class="nav-link">
+                        <i class="menu-icon lab la-css3-alt"></i>
+                        <span class="menu-title">Custom CSS</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item ">
+                    <a href="http://devengineeringconsultancy.com/admin/optimize" class="nav-link">
+                        <i class="menu-icon las la-broom"></i>
+                        <span class="menu-title">Clear Cache</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-menu-item  ">
+                    <a href="http://devengineeringconsultancy.com/admin/request-report" class="nav-link"
+                       data-default-url="http://devengineeringconsultancy.com/admin/request-report">
+                        <i class="menu-icon las la-bug"></i>
+                        <span class="menu-title">Report & Request </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="text-center mb-3 text-uppercase">
+                <span class="text--primary">signallab</span>
+                <span class="text--success">V1.2 </span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- sidebar end -->
+        <!-- navbar-wrapper start -->
+<nav class="navbar-wrapper">
+    <form class="navbar-search" onsubmit="return false;">
+        <button type="submit" class="navbar-search__btn">
+            <i class="las la-search"></i>
+        </button>
+        <input type="search" name="navbar-search__field" id="navbar-search__field"
+               placeholder="Search...">
+        <button type="button" class="navbar-search__close"><i class="las la-times"></i></button>
+
+        <div id="navbar_search_result_area">
+            <ul class="navbar_search_result"></ul>
+        </div>
+    </form>
+
+    <div class="navbar__left">
+        <button class="res-sidebar-open-btn"><i class="las la-bars"></i></button>
+        <button type="button" class="fullscreen-btn">
+            <i class="fullscreen-open las la-compress" onclick="openFullscreen();"></i>
+            <i class="fullscreen-close las la-compress-arrows-alt" onclick="closeFullscreen();"></i>
+        </button>
+    </div>
+
+    <div class="navbar__right">
+        <ul class="navbar__action-list">
+            <li>
+                <button type="button" class="navbar-search__btn-open">
+                    <i class="las la-search"></i>
+                </button>
+            </li>
+
+
+            <li class="dropdown">
+                <button type="button" class="primary--layer" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                  <i class="las la-bell text--primary"></i>
+                                      <span class="pulse--primary"></span>
+                                  </button>
+                <div class="dropdown-menu dropdown-menu--md p-0 border-0 box--shadow1 dropdown-menu-right">
+                  <div class="dropdown-menu__header">
+                    <span class="caption">Notification</span>
+                                            <p>You have 5 unread notification</p>
+                                      </div>
+                  <div class="dropdown-menu__body">
+                                        <a href="http://devengineeringconsultancy.com/admin/notification/read/6" class="dropdown-menu__item">
+                      <div class="navbar-notifi">
+                        <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="http://devengineeringconsultancy.com/placeholder-image/350x300" alt="Profile Image"></div>
+                        <div class="navbar-notifi__right">
+                          <h6 class="notifi__title">A new support ticket has opened </h6>
+                          <span class="time"><i class="far fa-clock"></i> 7 hours ago</span>
+                        </div>
+                      </div><!-- navbar-notifi end -->
+                    </a>
+                                        <a href="http://devengineeringconsultancy.com/admin/notification/read/5" class="dropdown-menu__item">
+                      <div class="navbar-notifi">
+                        <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="http://devengineeringconsultancy.com/placeholder-image/350x300" alt="Profile Image"></div>
+                        <div class="navbar-notifi__right">
+                          <h6 class="notifi__title">A new support ticket has opened </h6>
+                          <span class="time"><i class="far fa-clock"></i> 1 day ago</span>
+                        </div>
+                      </div><!-- navbar-notifi end -->
+                    </a>
+                                        <a href="http://devengineeringconsultancy.com/admin/notification/read/4" class="dropdown-menu__item">
+                      <div class="navbar-notifi">
+                        <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="http://devengineeringconsultancy.com/placeholder-image/350x300" alt="Profile Image"></div>
+                        <div class="navbar-notifi__right">
+                          <h6 class="notifi__title">A new support ticket has opened </h6>
+                          <span class="time"><i class="far fa-clock"></i> 5 days ago</span>
+                        </div>
+                      </div><!-- navbar-notifi end -->
+                    </a>
+                                        <a href="http://devengineeringconsultancy.com/admin/notification/read/3" class="dropdown-menu__item">
+                      <div class="navbar-notifi">
+                        <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="http://devengineeringconsultancy.com/placeholder-image/350x300" alt="Profile Image"></div>
+                        <div class="navbar-notifi__right">
+                          <h6 class="notifi__title">New member registered</h6>
+                          <span class="time"><i class="far fa-clock"></i> 1 week ago</span>
+                        </div>
+                      </div><!-- navbar-notifi end -->
+                    </a>
+                                        <a href="http://devengineeringconsultancy.com/admin/notification/read/1" class="dropdown-menu__item">
+                      <div class="navbar-notifi">
+                        <div class="navbar-notifi__left bg--green b-radius--rounded"><img src="http://devengineeringconsultancy.com/placeholder-image/350x300" alt="Profile Image"></div>
+                        <div class="navbar-notifi__right">
+                          <h6 class="notifi__title">A new support ticket has opened </h6>
+                          <span class="time"><i class="far fa-clock"></i> 3 weeks ago</span>
+                        </div>
+                      </div><!-- navbar-notifi end -->
+                    </a>
+                                      </div>
+                  <div class="dropdown-menu__footer">
+                    <a href="http://devengineeringconsultancy.com/admin/notifications" class="view-all-message">View all notification</a>
+                  </div>
+                </div>
+            </li>
+
+
+            <li class="dropdown">
+                <button type="button" class="" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                  <span class="navbar-user">
+                    <span class="navbar-user__thumb"><img src="http://devengineeringconsultancy.com/assets/images/default.png" alt="image"></span>
+                    <span class="navbar-user__info">
+                      <span class="navbar-user__name">admin</span>
+                    </span>
+                    <span class="icon"><i class="las la-chevron-circle-down"></i></span>
+                  </span>
+                </button>
+                <div class="dropdown-menu dropdown-menu--sm p-0 border-0 box--shadow1 dropdown-menu-right">
+                    <a href="http://devengineeringconsultancy.com/admin/profile"
+                       class="dropdown-menu__item d-flex align-items-center px-3 py-2">
+                        <i class="dropdown-menu__icon las la-user-circle"></i>
+                        <span class="dropdown-menu__caption">Profile</span>
+                    </a>
+
+                    <a href="http://devengineeringconsultancy.com/admin/password"
+                       class="dropdown-menu__item d-flex align-items-center px-3 py-2">
+                        <i class="dropdown-menu__icon las la-key"></i>
+                        <span class="dropdown-menu__caption">Password</span>
+                    </a>
+
+                    <a href="http://devengineeringconsultancy.com/admin/logout"
+                       class="dropdown-menu__item d-flex align-items-center px-3 py-2">
+                        <i class="dropdown-menu__icon las la-sign-out-alt"></i>
+                        <span class="dropdown-menu__caption">Logout</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- navbar-wrapper end -->
+
+        <div class="body-wrapper">
+            <div class="bodywrapper__inner">
+
+                <div class="row align-items-center mb-30 justify-content-between">
+    <div class="col-lg-6 col-sm-6">
+        <h6 class="page-title">Package Section</h6>
+    </div>
+    <div class="col-lg-6 col-sm-6 text-sm-right mt-sm-0 mt-3 right-part">
+            </div>
+</div>
+
+                            <div class="row">
+            <div class="col-lg-12 col-md-12 mb-30">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="http://devengineeringconsultancy.com/admin/frontend/frontend-content/package" method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="_token" value="X6V4sqRymarWFYjwvzypckjp1A0ORrqIjXh83kbN">                            <input type="hidden" name="type" value="content">
+                            <div class="row">
+                                                                                                                                                                                                                                        <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label  font-weight-bold">Heading</label>
+                                                        <input type="text" class="form-control" placeholder="Heading" name="heading" value="Our Packages" required/>
+                                                    </div>
+                                                </div>
+
+                                                                                                                                                                                                                                                                                                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label  font-weight-bold">Sub heading</label>
+                                                        <input type="text" class="form-control" placeholder="Sub heading" name="sub_heading" value="Unlock devengineeringconsultancy" required/>
+                                                    </div>
+                                                </div>
+
+                                                                                                                                                                                                                    </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn--dark btn-block btn-lg">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+
+
+
+
+            </div><!-- bodywrapper__inner end -->
+        </div><!-- body-wrapper end -->
+    </div>
+
+
+
+
+
+
+<!-- jQuery library -->
+<script src="http://devengineeringconsultancy.com/assets/global/js/jquery-3.6.0.min.js"></script>
+<!-- bootstrap js -->
+<script src="http://devengineeringconsultancy.com/assets/admin/js/vendor/bootstrap.jquery.min.js"></script>
+<!-- bootstrap-toggle js -->
+<script src="http://devengineeringconsultancy.com/assets/admin/js/vendor/bootstrap-toggle.min.js"></script>
+
+<!-- slimscroll js for custom scrollbar -->
+<script src="http://devengineeringconsultancy.com/assets/admin/js/vendor/jquery.slimscroll.min.js"></script>
+<!-- custom select box js -->
+<script src="http://devengineeringconsultancy.com/assets/admin/js/vendor/jquery.nice-select.min.js"></script>
+
+
+<link rel="stylesheet" href="http://devengineeringconsultancy.com/assets/global/css/iziToast.min.css">
+<script src="http://devengineeringconsultancy.com/assets/global/js/iziToast.min.js"></script>
+
+<script>
+    "use strict";
+    function notify(status,message) {
+        iziToast[status]({
+            message: message,
+            position: "topRight"
+        });
+    }
+</script>
+    <script src="http://devengineeringconsultancy.com/assets/admin/js/bootstrap-iconpicker.bundle.min.js"></script>
+
+<script src="http://devengineeringconsultancy.com/assets/admin/js/nicEdit.js"></script>
+
+<!-- code preview js -->
+<script src="http://devengineeringconsultancy.com/assets/admin/js/vendor/prism.js"></script>
+<!-- seldct 2 js -->
+<script src="http://devengineeringconsultancy.com/assets/admin/js/vendor/select2.min.js"></script>
+<!-- main js -->
+<script src="http://devengineeringconsultancy.com/assets/admin/js/app.js"></script>
+
+
+<script>
+    "use strict";
+    bkLib.onDomLoaded(function() {
+        $( ".nicEdit" ).each(function( index ) {
+            $(this).attr("id","nicEditor"+index);
+            new nicEditor({fullPanel : true}).panelInstance('nicEditor'+index,{hasPanel : true});
+        });
+    });
+    (function($){
+        $( document ).on('mouseover ', '.nicEdit-main,.nicEdit-panelContain',function(){
+            $('.nicEdit-main').focus();
+        });
+    })(jQuery);
+</script>
+
+
+    <script>
+        (function ($) {
+            "use strict";
+            $('.removeBtn').on('click', function () {
+                var modal = $('#removeModal');
+                modal.find('input[name=id]').val($(this).data('id'))
+                modal.modal('show');
+            });
+
+            $('.addBtn').on('click', function () {
+                var modal = $('#addModal');
+                modal.modal('show');
+            });
+
+            $('.updateBtn').on('click', function () {
+                var modal = $('#updateBtn');
+                modal.find('input[name=id]').val($(this).data('id'));
+
+                var obj = $(this).data('all');
+                var images = $(this).data('images');
+                if (images) {
+                    for (var i = 0; i < images.length; i++) {
+                        var imgloc = images[i];
+                        $(`.imageModalUpdate${i}`).css("background-image", "url(" + imgloc + ")");
+                    }
+                }
+                $.each(obj, function (index, value) {
+                    modal.find('[name=' + index + ']').val(value);
+                });
+
+                modal.modal('show');
+            });
+
+            $('#updateBtn').on('shown.bs.modal', function (e) {
+                $(document).off('focusin.modal');
+            });
+            $('#addModal').on('shown.bs.modal', function (e) {
+                $(document).off('focusin.modal');
+            });
+
+            $('.iconPicker').iconpicker().on('change', function (e) {
+                $(this).parent().siblings('.icon').val(`<i class="${e.icon}"></i>`);
+            });
+        })(jQuery);
+    </script>
+
+
+
+</body>
+</html>
